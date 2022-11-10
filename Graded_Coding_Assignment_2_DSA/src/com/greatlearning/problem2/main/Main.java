@@ -47,7 +47,7 @@ public class Main {
 				rightSkewedTree.insertRight(root, value);
 			}
 		}
-		System.out.println("\n\nRoot of right skewed binary tree is: " + root.key);
+		System.out.println("\n\nRoot of right skewed tree is: " + root.key);
 
 		System.out.println("\nRight skewed tree values are: \n");
 		rightSkewedTree.rightNodes(root);
