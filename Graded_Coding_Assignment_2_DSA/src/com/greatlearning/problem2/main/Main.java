@@ -35,10 +35,10 @@ public class Main {
 		// values.
 		// These values are stored in the array declared as "array". These values are in
 		// sorted order.
-		// Now we insert to create a sorted right skewed BST which will be in ascending
+		// Now we insert to create a sorted right skewed BT which will be in ascending
 		// order.
 
-		root = null; //re-initializing
+		root = null; // re-initializing
 		for (int i = 0; i < rightSkewedTree.array.length; i++) {
 			value = rightSkewedTree.array[i];
 			if (root == null) {
